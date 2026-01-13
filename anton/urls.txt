@@ -1,0 +1,17 @@
+# 📋 Example URLs Configuration File
+# Add your favorite URLs here for batch scraping!
+
+# Educational sites
+https://example.com
+https://github.com/14148-MSs-DH/webscraping
+
+# You can add more URLs below (one per line):
+# https://your-url-here.com
+# https://another-site.org
+
+# Tips:
+# - Lines starting with # are comments (ignored)
+# - One URL per line
+# - URLs should start with http:// or https://
+# - Remove # to activate a URL
+
