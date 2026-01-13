@@ -8,7 +8,7 @@ from urllib.request import urlopen
 # This is the address of the web page we want to fetch.
 # It is just a normal URL, the same one you could open in a browser.
 
-url = "https://github.com/14148-MSs-DH/webscraping#"
+url = "http://olympus.realpython.org/profiles/aphrodite"
 
 
 # Here we open the web page.
