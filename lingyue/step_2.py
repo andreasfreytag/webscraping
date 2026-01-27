@@ -67,6 +67,8 @@ with open("brihat_samhita_index_sa.txt", "w", encoding="utf-8") as f_index:
         print(f"Link: {chapter_link}\n", file=f_index)
 
 # 第二步：再从每个文章页面链接里获取每章节内容
+# "w+"表示写入模式，如果文件不存在则创建新文件，如果存在则覆盖原有内容
+# 如果把所有code放在with块里则会确保每次先正确运行再进行后面的操作
 with open("brihat_samhita_output_sa.txt", "w", encoding="utf-8") as f_text:
     for _, _, chapter_link, chapter_name in search_results:
         page = urlopen(chapter_link)
